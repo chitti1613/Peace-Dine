@@ -1,0 +1,285 @@
+<html>
+
+<head>
+<script src="https://kit.fontawesome.com/901fc8e188.js" crossorigin="anonymous"></script>
+
+<link rel="icon" href="pd.png" type="image/png">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="nav">
+  <a href='reservation.html'>Reservation</a>
+  <a href='about.html'>About</a>
+  <a href='menue.html'>Menu</a>
+  <a href='home.html'>Home</a>
+
+<img src="images/pd.png" alt="LOGO PB">
+</div>
+
+<div>
+<h1>Make A Reservation</h1>
+</div>
+
+</header>
+
+<main>
+<form class="l">
+   <h5 class="formhead">RESERVATION</h5>
+
+    <div>
+    <label for="name"><b>Name</b></label><br/>
+    <input type="text" placeholder="Enter your name" name="name" required><br/><br/>
+    <div>
+
+    <div>
+    <label for="phonenumber"><b>Mobile Number</b></label><br/>
+    <input type="text" placeholder="Enter Number" name="Mobile Number" required><br/><br/>
+    </div>
+
+    <div class="otp">
+    <button type="submit">Send OTP</button>
+    <input type="otp" placeholder="otp" name="otp" required><br/><br/>
+    </div>
+
+    <div>
+    <label for="Date"><b>Date</b></label>
+    <input type="Date" placeholder="Date" name="Date" required>
+    </div>  
+
+    <div>
+    <label for="Time"><b>Time</b></label>
+    <input type="Time" placeholder="Time" name="Time" required>
+    </div>
+
+    <div>
+    <label for="Number of Guests"><b>Number of Guests</b></label>
+    <input type="number" placeholder="1" name="Number of Guests" required><br/><br/>
+    </div>
+
+    <div class="submit">
+    <button type="submit">RESERVE A TABLE</button><br/>
+    </div>
+
+    <div class="forcall">
+    <label for="call">FOR RESERVATION CALL:+91 XXXXXXXXXX</label>
+    </div>
+</form>
+</main>
+
+<footer>
+
+<div class="peaceimg">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqemm5QBeRKJwjHAxxSpWL1ZFfBuwnj2u0Pg&usqp=CAU" alt="LOGO PB" class="center">
+<h1 class="peace">PEACE DINE</h1>
+</div>
+
+<h1 class="foot">stay connected</h1>
+
+<div class="icons">
+<a href="#"><i class="fa-brands fa-facebook"></i></a>
+<a href="#"><i class="fa-brands fa-instagram"></i></a>
+<a href="#"><i class="fa-brands fa-twitter"></i></a>
+</div>
+
+
+<div class="footp">
+<lable>Gokak,Peace Vill,</lable><br/>
+<lable>Municipal No. 23, 5th Cross, 5th Block,</lable><br/> 
+<lable>Gokak, Belagaum,591307</lable><br/>
+<lable>For Reservation Call: +91 XXXXXXXXXX</lable><br/>
+</div>
+</footer>
+
+</body>
+
+
+<style>
+
+body
+{
+ background-color: black;
+}
+
+/* .nav img
+{
+  width:auto; 
+  height:230;
+  border
+}
+
+.nav img:hover
+{
+   border: 5px solid orange;
+  transform:scale(1.1);
+  height: auto
+} */
+
+.nav a {
+  margin-top:0;
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 24px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav a:hover
+{
+  transform:scale(1.1);
+color:red;
+border: 2px solid orange; 
+}
+
+.formhead
+{
+  font-family: "Courier New", Courier, monospace;
+ font-size: 35px;
+ text-align:center;
+ color:orange;
+} 
+
+.otp button:hover 
+{
+  background-color: #808080;
+  color: white;
+  border: 2px solid orange; 
+  transform:scale(1.0);
+}
+
+
+.otp button
+{
+	color: white;
+	background-color: black;
+	border: 2px solid white; 
+	font-size: 25px;
+}
+
+.submit button:hover 
+{
+  background-color: #808080;
+  color: white;
+  border: 2px solid orange; 
+   transform:scale(1.0);
+}
+
+
+.submit button
+{
+	font-size: 25px;
+      height:7%;
+	width:100%;
+	color:white;
+	background-color: black;
+	border: 2px solid white; 
+}
+
+
+.forcall
+{
+	font-size: 20px;
+	color:#808080;
+}
+
+header
+{
+  font-family: Copperplate, Papyrus, fantasy;
+  background-image: url("https://img.freepik.com/free-photo/golden-cutlery-with-textile-plate-dark-background-top-view_1220-6580.jpg");
+  padding: 100px;
+  background-size:100% 130%;
+}
+
+h1
+{
+   font-size: 70px;
+   text-align:center;
+   color:white;
+}
+
+form
+{
+
+    padding: 5% 25% 5% 25%;
+    background:black;
+    color:white;
+    font-size: 40px;
+}
+
+input 
+{
+   font-family: "Trirong", serif;
+  font-size: 25px;
+  width: 100%;
+  height: 35px;
+ border: none;
+ border-bottom: 2px solid white;
+ background-color:black;
+ color:#808080;
+}
+
+.l input:hover
+{
+ border-bottom: 2px solid red;
+   transform:scale(1.1);
+}
+
+footer
+{
+ background-color:#010c05e0;
+ color:white;
+}
+
+.foot
+{
+   font-size: 60px;
+   text-align:center;
+   color:white;
+}
+
+.footp
+{
+   text-align:center;
+   font-size: 25px;
+}
+
+.center 
+{
+  width:auto;
+  height:230;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.peaceimg img:hover
+{
+  border: 5px solid orange;
+  transform:scale(1.1);
+  height: auto
+}
+
+.peace
+{
+   color:#6c1515;
+   text-align:center;
+   font-size: 35px;
+}
+
+.icons
+{
+ margin-left:45%;
+ font-size:40px;
+}
+
+.icons a i:hover
+{
+color:red;
+transform:scale(1.3);
+}
+
+</style>
+</html>
